@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9470d640-366e-49da-9dfc-0e1f76651463" name="Changes" comment="Refactoring" />
+    <list default="true" id="9470d640-366e-49da-9dfc-0e1f76651463" name="Changes" comment="Refactoring">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -20,6 +23,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Csaba27"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8e5b4159-7108-4511-b5de-1a71a7b621b4" />
+        <option name="url" value="https://github.com/Csaba27/Java_miniprojektek.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -34,11 +51,19 @@
   "keyToString": {
     "Application.BonuszFel.executor": "Run",
     "Application.BonuszFel1.executor": "Run",
+    "Application.Fel2.executor": "Run",
+    "Application.Fel3.executor": "Run",
+    "Application.Fel4.executor": "Run",
+    "Application.Fel5.executor": "Run",
     "Application.Fel6.executor": "Run",
+    "Application.Fel7.executor": "Run",
+    "Application.Fel8.executor": "Run",
+    "Application.Fel9.executor": "Run",
     "Application.miniprojekt1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/CsabaPC/IdeaProjects/Java_miniprojektek",
@@ -53,19 +78,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CsabaPC\IdeaProjects\Java_miniprojektek\src\Miniprojekt2" />
       <recent name="C:\Users\CsabaPC\IdeaProjects\Java_miniprojektek\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="miniprojekt1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BonuszFel1">
-    <configuration name="BonuszFel1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Miniprojekt1.BonuszFel1" />
+  <component name="RunManager" selected="Application.Fel9">
+    <configuration name="Fel5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Miniprojekt2.Fel5" />
       <module name="Java_miniprojektek" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Miniprojekt1.*" />
+          <option name="PATTERN" value="Miniprojekt2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,11 +100,50 @@
       </method>
     </configuration>
     <configuration name="Fel6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Miniprojekt1.Fel6" />
+      <option name="MAIN_CLASS_NAME" value="Miniprojekt2.Fel6" />
       <module name="Java_miniprojektek" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Miniprojekt1.*" />
+          <option name="PATTERN" value="Miniprojekt2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fel7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Miniprojekt2.Fel7" />
+      <module name="Java_miniprojektek" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Miniprojekt2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fel8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Miniprojekt2.Fel8" />
+      <module name="Java_miniprojektek" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Miniprojekt2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fel9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Miniprojekt2.Fel9" />
+      <module name="Java_miniprojektek" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Miniprojekt2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,8 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BonuszFel1" />
+        <item itemvalue="Application.Fel9" />
+        <item itemvalue="Application.Fel8" />
+        <item itemvalue="Application.Fel7" />
         <item itemvalue="Application.Fel6" />
+        <item itemvalue="Application.Fel5" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +222,7 @@
       <path value="$PROJECT_DIR$/src" />
     </ignored-roots>
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="Miniprojekt2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Miniprojekt2" />
   </component>
 </project>
