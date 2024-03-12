@@ -1,4 +1,4 @@
-package Miniprojekt2;
+package miniprojekt2;
 
 public class Fel5 {
     public static void replaceFirstLastElem(int[] array, int value) {

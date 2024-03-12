@@ -1,4 +1,4 @@
-package Miniprojekt2;
+package miniprojekt2;
 
 public class Fel9 {
     public static void main(String[] args) {

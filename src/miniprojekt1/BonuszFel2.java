@@ -1,4 +1,4 @@
-package Miniprojekt1;
+package miniprojekt1;
 
 public class BonuszFel2 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Miniprojekt1;
+package miniprojekt1;
 
 public class Fel6 {
     public static boolean tombOsszeHasonlit(int[] tomb1, int[] tomb2) {

@@ -1,4 +1,4 @@
-package Miniprojekt2;
+package miniprojekt2;
 
 public class Fel6 {
     public static void minMax(int[] array) {
