@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9470d640-366e-49da-9dfc-0e1f76651463" name="Changes" comment="Rename package names">
+    <list default="true" id="9470d640-366e-49da-9dfc-0e1f76651463" name="Changes" comment="Miniprojekt3 add velemenyekSzama function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miniprojekt3/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniprojekt3/Film.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -49,36 +49,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BonuszFel.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BonuszFel1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fel2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fel3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fel4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fel5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fel6.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fel7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fel8.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fel9.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Teszter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.miniprojekt1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/CsabaPC/IdeaProjects/Java_miniprojektek&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BonuszFel.executor": "Run",
+    "Application.BonuszFel1.executor": "Run",
+    "Application.Fel2.executor": "Run",
+    "Application.Fel3.executor": "Run",
+    "Application.Fel4.executor": "Run",
+    "Application.Fel5.executor": "Run",
+    "Application.Fel6.executor": "Run",
+    "Application.Fel7.executor": "Run",
+    "Application.Fel8.executor": "Run",
+    "Application.Fel9.executor": "Run",
+    "Application.Teszt.executor": "Run",
+    "Application.Teszter.executor": "Run",
+    "Application.miniprojekt1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/CsabaPC/IdeaProjects/Java_miniprojektek",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\CsabaPC\IdeaProjects\Java_miniprojektek\src\Miniprojekt2" />
@@ -88,20 +89,7 @@
       <recent name="miniprojekt1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Teszter">
-    <configuration name="Fel6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="miniprojekt2.Fel6" />
-      <module name="Java_miniprojektek" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="miniprojekt2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Teszt">
     <configuration name="Fel7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="miniprojekt2.Fel7" />
       <module name="Java_miniprojektek" />
@@ -141,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Teszt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="miniprojekt4.Teszt" />
+      <module name="Java_miniprojektek" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="miniprojekt4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Teszter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="miniprojekt3.Teszter" />
       <module name="Java_miniprojektek" />
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Teszt" />
         <item itemvalue="Application.Teszter" />
         <item itemvalue="Application.Fel9" />
         <item itemvalue="Application.Fel8" />
         <item itemvalue="Application.Fel7" />
-        <item itemvalue="Application.Fel6" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +190,8 @@
       <workItem from="1709547292811" duration="12000" />
       <workItem from="1710251059934" duration="267000" />
       <workItem from="1710251856461" duration="3210000" />
+      <workItem from="1711964556141" duration="486000" />
+      <workItem from="1711965137210" duration="5327000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring">
       <option name="closed" value="true" />
@@ -222,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710251252140</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Miniprojekt3 add velemenyekSzama function">
+      <option name="closed" value="true" />
+      <created>1710773257301</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710773257301</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +257,7 @@
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Miniprojekt2" />
     <MESSAGE value="Rename package names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename package names" />
+    <MESSAGE value="Miniprojekt3 add velemenyekSzama function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Miniprojekt3 add velemenyekSzama function" />
   </component>
 </project>
