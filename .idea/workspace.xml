@@ -17,8 +17,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,14 +32,12 @@
     &quot;assignee&quot;: &quot;Csaba27&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="8e5b4159-7108-4511-b5de-1a71a7b621b4" />
-        <option name="url" value="https://github.com/Csaba27/Java_miniprojektek.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Csaba27/Java_miniprojektek.git",
+    "accountId": "8e5b4159-7108-4511-b5de-1a71a7b621b4"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -61,6 +59,7 @@
     "Application.Fel7.executor": "Run",
     "Application.Fel8.executor": "Run",
     "Application.Fel9.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Teszt.executor": "Run",
     "Application.Teszter.executor": "Run",
     "Application.miniprojekt1.executor": "Run",
@@ -82,6 +81,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CsabaPC\IdeaProjects\Java_miniprojektek\src\miniprojekt5" />
       <recent name="C:\Users\CsabaPC\IdeaProjects\Java_miniprojektek\src\Miniprojekt2" />
       <recent name="C:\Users\CsabaPC\IdeaProjects\Java_miniprojektek\src" />
     </key>
@@ -89,20 +89,7 @@
       <recent name="miniprojekt1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Teszt">
-    <configuration name="Fel7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="miniprojekt2.Fel7" />
-      <module name="Java_miniprojektek" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="miniprojekt2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Fel8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="miniprojekt2.Fel8" />
       <module name="Java_miniprojektek" />
@@ -122,6 +109,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="miniprojekt2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="miniprojekt5.Main" />
+      <module name="Java_miniprojektek" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="miniprojekt5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,18 +157,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Teszt" />
         <item itemvalue="Application.Teszter" />
         <item itemvalue="Application.Fel9" />
         <item itemvalue="Application.Fel8" />
-        <item itemvalue="Application.Fel7" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -191,7 +192,8 @@
       <workItem from="1710251059934" duration="267000" />
       <workItem from="1710251856461" duration="3210000" />
       <workItem from="1711964556141" duration="486000" />
-      <workItem from="1711965137210" duration="5327000" />
+      <workItem from="1711965137210" duration="6150000" />
+      <workItem from="1714380959066" duration="3297000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring">
       <option name="closed" value="true" />
